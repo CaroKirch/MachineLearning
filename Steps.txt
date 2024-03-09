@@ -1,0 +1,38 @@
+Etapes à suivre selon le chat intelligent : 
+
+
+Étape 1 : Exploration des Données
+Analyse exploratoire des données pour comprendre la structure, les types de variables, les statistiques descriptives, etc.
+Visualisation des données pour identifier des tendances ou des schémas.
+
+Étape 2 : Prétraitement des Données
+Gestion des valeurs manquantes et des données aberrantes.
+Encodage des variables catégorielles si nécessaire.
+Normalisation ou mise à l'échelle des données numériques.
+
+Étape 3 : Ingénierie des Caractéristiques
+Identification des caractéristiques pertinentes.
+Création de nouvelles caractéristiques si nécessaire.
+
+Étape 4 : Construction du Modèle
+Séparation des données d'entraînement (X_train, Y_train) en ensemble d'entraînement et de validation.
+Choix d'un modèle adapté pour la classification multiclasse (les trois classes : HOME_WINS, DRAW, AWAY_WINS).
+Entraînement du modèle sur les données d'entraînement.
+
+Étape 5 : Évaluation du Modèle
+Évaluation des performances du modèle sur l'ensemble de validation.
+Ajustement du modèle si nécessaire pour améliorer les performances.
+
+Étape 6 : Prédiction des Résultats pour les Données de Test
+Utilisation du modèle entraîné pour prédire les résultats des matchs dans X_test.zip.
+
+Étape 7 : Analyse des Résultats
+Analyse des prédictions et comparaison avec les résultats réels (Y_train.csv) si disponibles.
+Réflexion sur les améliorations possibles du modèle.
+
+Étape 8 : Enrichissement avec les Données Supplémentaires
+Intégration des données supplémentaires de Y_train_supp.csv si cela améliore la performance du modèle.
+
+Étape 9 : Documentation et Présentation
+Rédaction d'un rapport décrivant les étapes suivies, les choix de modèle, les résultats obtenus, et les conclusions.
+Présentation des résultats et du modèle construit.
