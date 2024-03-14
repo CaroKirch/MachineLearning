@@ -7,19 +7,20 @@ import matplotlib.pyplot as plt
 
 # Il y a tellement de données que l'importation sur git se fait pas
 # J'ai du les sortir du dossier partagé, donc il faut préciser le début du chemin d'accès : 
-data_root_path = "C:/Users/kroki/Dropbox/Caroline/Documents/Cours/1 - Master/4ème semestre/Machine learning/Data/"
+# data_root_path = "C:/Users/kroki/Dropbox/Caroline/Documents/Cours/1 - Master/4ème semestre/Machine learning/Data/"
+data_root_path = "/Users/a_clouet/Documents/Master_2022-2024/M2/S2/MachineLearning/Projet/"
 
 # Test Data : 
-#test_away_player_statistics = pd.read_csv(data_root_path + "Test_Data/test_away_player_statistics_df.csv", sep=",", index_col=0)
-#test_away_team_statistics = pd.read_csv(data_root_path + "Test_Data/test_away_team_statistics_df.csv", sep=",", index_col=0)
-#test_home_player_statistics = pd.read_csv(data_root_path + "Test_Data/test_home_player_statistics_df.csv", sep=",", index_col=0)
-#test_home_team_statistics = pd.read_csv(data_root_path + "Test_Data/test_home_team_statistics_df.csv", sep=",", index_col=0)
+test_away_player_statistics = pd.read_csv(data_root_path + "Test_Data/test_away_player_statistics_df.csv", sep=",", index_col=0)
+test_away_team_statistics = pd.read_csv(data_root_path + "Test_Data/test_away_team_statistics_df.csv", sep=",", index_col=0)
+test_home_player_statistics = pd.read_csv(data_root_path + "Test_Data/test_home_player_statistics_df.csv", sep=",", index_col=0)
+test_home_team_statistics = pd.read_csv(data_root_path + "Test_Data/test_home_team_statistics_df.csv", sep=",", index_col=0)
 
 # Train data : 
-#train_away_player_statistics = pd.read_csv(data_root_path + "Train_Data/train_away_player_statistics_df.csv", sep=",", index_col=0)
-#train_away_team_statistics = pd.read_csv(data_root_path + "Train_Data/train_away_team_statistics_df.csv", sep=",", index_col=0)
-#train_home_player_statistics = pd.read_csv(data_root_path + "Train_Data/train_home_player_statistics_df.csv", sep=",", index_col=0)
-#train_home_team_statistics = pd.read_csv(data_root_path + "Train_Data/train_home_team_statistics_df.csv", sep=",", index_col=0)
+train_away_player_statistics = pd.read_csv(data_root_path + "Train_Data/train_away_player_statistics_df.csv", sep=",", index_col=0)
+train_away_team_statistics = pd.read_csv(data_root_path + "Train_Data/train_away_team_statistics_df.csv", sep=",", index_col=0)
+train_home_player_statistics = pd.read_csv(data_root_path + "Train_Data/train_home_player_statistics_df.csv", sep=",", index_col=0)
+train_home_team_statistics = pd.read_csv(data_root_path + "Train_Data/train_home_team_statistics_df.csv", sep=",", index_col=0)
 
 # Extra data : 
 # Y_train_supp = pd.read_csv(data_root_path + "benchmark_and_extras/Y_train_supp.csv", sep=",", index_col=0)
