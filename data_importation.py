@@ -57,9 +57,7 @@ def graph_missing_data(df:pd.DataFrame) :
     (df.count() - df.shape[1]).plot.bar()
     plt.show()
 
-graph_missing_data(test_home_team_statistics)
-
-
+# graph_missing_data(test_home_team_statistics)
 
 
 # Y_train = Y_train.replace({np.inf:np.nan,-np.inf:np.nan})
