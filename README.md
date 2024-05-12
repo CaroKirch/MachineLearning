@@ -1,2 +1,0 @@
-# MachineLearning
-Projet Machine Learning
